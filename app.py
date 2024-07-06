@@ -6,7 +6,7 @@ import pandas as pd
 
 
 app = Flask(__name__)
-model = pickle.load(open("flight_model.pkl", "rb"))
+model = pickle.load(open("best_model_final.pkl", "rb"))
 
 
 @app.route("/")
